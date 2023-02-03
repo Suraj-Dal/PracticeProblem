@@ -41,10 +41,13 @@
             //string result = prefix.getPrefix(arr);
             //Console.WriteLine(result);
 
-            String str = "ABC";
-            int n = str.Length;
-            Permutation per = new Permutation();
-            per.getPossible(str, 0, n - 1);
+            //String str = "ABC";
+            //int n = str.Length;
+            //Permutation per = new Permutation();
+            //per.getPossible(str, 0, n - 1);
+
+            Cipher cipher = new Cipher();
+            cipher.encrypt("a ipsum", 13);
 
         }
     }
