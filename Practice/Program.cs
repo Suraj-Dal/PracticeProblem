@@ -22,13 +22,30 @@
             //VendingMachine machine = new VendingMachine();
             //machine.getChange(2.99, 5);
 
-            int[][] booked = new int[3][];
-            booked[0] = new int[2] { 10, 12 };
-            booked[1] = new int[2] { 14, 16 };
-            booked[2] = new int[2] { 22, 24 };
+            //int[][] booked = new int[3][];
+            //booked[0] = new int[2] { 10, 12 };
+            //booked[1] = new int[2] { 14, 16 };
+            //booked[2] = new int[2] { 22, 24 };
+            //TimeSlot timeSlot = new TimeSlot();
+            //timeSlot.getAppoinment(booked);
 
-            TimeSlot timeSlot = new TimeSlot();
-            timeSlot.getAppoinment(booked);
+            //int[] arr = { 169, 145, 225, 211, 121, 183, 100, 111, 196, 214, 275 };
+            //SquarePicker picker = new SquarePicker();
+            //picker.getSquare(arr);
+
+            //SumOfNumber sum = new SumOfNumber();
+            //sum.findNums(3, 6);
+
+            //string[] arr = { "intelliBlue","intelliFeeder","intelliAuth"};
+            //Prefix prefix = new Prefix();
+            //string result = prefix.getPrefix(arr);
+            //Console.WriteLine(result);
+
+            String str = "ABC";
+            int n = str.Length;
+            Permutation per = new Permutation();
+            per.getPossible(str, 0, n - 1);
+
         }
     }
 }
